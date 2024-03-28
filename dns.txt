@@ -1,0 +1,32 @@
+
+==========================================
+
+Name: livetransparent.com
+Type: MX
+Value: SMTP.GOOGLE.COM
+Priority: 1
+
+==========================================
+
+Name: _dmarc.livetransparent.com
+Type: TXT
+Value: v=DMARC1;p=reject;pct=100;rua=mailto:dmarc-reports@livetransparent.com;ruf=mailto:dmarc-reports@livetransparent.com;ri=86400;fo=1
+==========================================
+
+Name: google._domainkey.livetransparent.com
+Type: TXT
+Value: v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCMEhFdx9RBiflHrZ7/p4mVzHNT7uW5cTbokh2DK6XY8PWZTBSizwajdLX7r/xO+kB9AUjBa6wiBU8iqOt1jaSbwkvdgB6+Ifcw3lyE1xgwR4FZsNqUYhJkyBzjSughuTA26yPyOKb2O8MDeP0cui2+3TNPH+n2h8Y0sx+aZMU8QIDAQAB
+
+==========================================
+
+Name: livetransparent.com
+Type: TXT
+Value: google-site-verification=OplbmSu2J6Ixyix1-b9mzHw6YH0b6rEeOH86g3YLB2M
+
+==========================================
+
+Name:livetransparent.com
+Type: TXT
+Value: v=spf1 include:_spf.google.com ~all
+
+=========================================
