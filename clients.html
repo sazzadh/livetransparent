@@ -1,21 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1362012287804434');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1362012287804434&ev=PageView&noscript=1"
-        /></noscript>
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-46T0G8CBK1"></script>
+     <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'G-46T0G8CBK1');
+ </script>
+
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1362012287804434');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1362012287804434&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,32 +38,39 @@
     <title>Transparent E-Comm</title>
 </head>
 <body>
+
+
+
     <!-- Scroll To Top Button -->
     <div class="scroll-button">
         <a href="#navbar"><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <!-- Navigation Menu -->
-    <nav>
+    <nav class="home-nav active" id="myheader">
         <div class="navbar" id="navbar">
             <div class="logo-box">
                 <div class="logo"><a href="/"><img src="./images/logo.png"/></a></div>
             </div>
             <ul class="menu">
-                <li><a href="/#clients" class="nav-clients"></a></li>
-                <li><a href="/#services" class="nav-services"></a></li>
-                <li><a href="/#contact" class="nav-contact"></a></li>
-                <li><a href="/clients.html" class="nav-creative"></a></li>
+                <li><a href="/#clients" class="nav-clients">Clients</a></li>
+                <li><a href="/#services" class="nav-services">Services</a></li>
+                <li><a href="/#contact" class="nav-contact">Contact</a></li>
+                <li><a href="/clients.html" class="nav-creative">Creative</a></li>
+                <li><a href="https://calendly.com/transparentecom/one-on-one" class="cta-link-header audit-link-">APPLY</a></li>
                 <div class="cancel-button">
-                    <i class="fas fa-times"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z"/></svg>
                 </div>
             </ul>
         </div>
         <div class="phone-button">
             <i class="fa-solid fa-phone"></i>
         </div>
-        <div class="menu-button">
-            <i class="fas fa-bars"></i>
+        <div class="menu-button" id="menuButton">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </div>
+        <div class="phone-cta">
+            <a href="https://calendly.com/transparentecom/one-on-one" class="cta-link-header audit-link-">APPLY</a>
         </div>
     </nav>
 
@@ -62,7 +83,122 @@
 
     <!-- Our Clients Section -->
     <section class="our-clients">
-        <div id="clients-media-container" scrolls></div>
+        <div id="clients-media-container" scrolls="" style="opacity: 1;">
+            <div class="client">
+                <h3>Happy Hemp</h3>
+                <div class="videos">
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/Zfykfc68zyqdRph__HappyHemp1-1-.mp4"
+                        poster="images/Zfykfc68zyqdRph__HappyHemp1-1.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/Zfyk2s68zyqdRpiB_Creator2-1-.mp4" 
+                        poster="images/Zfyk2s68zyqdRpiB_Creator2-1.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/ZfylE868zyqdRpiI_HappyHemp3-2-.mp4"
+                        poster="images/ZfylE868zyqdRpiI_HappyHemp3-2.jpg">
+                    </video></div>
+                  
+                </div>
+            </div>
+        
+            <hr size="2" width="100%" color="#fff">
+            <div class="client">
+                <h3>JustCBD</h3>
+                <div class="videos">
+                    <div class="video" style="display: block">
+                        <h4>Programmatic  </h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/5804cbbd-2413-403c-a2b2-6424f7e379bd_ezgif.com-gif-to-mp4.mp4" 
+                        poster="images/5804cbbd-2413-403c-a2b2-6424f7e379bd_ezgif.com-gif-to-mp4.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Programmatic</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/85bf6b13-b7cb-44df-89f5-5dc3175f60a1_ezgif.com-gif-to-mp4+%281%29.mp4" 
+                        poster="images/85bf6b13-b7cb-44df-89f5-5dc3175f60a1_ezgif.com-gif-to-mp4.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/99eb516f-3a90-4843-a806-d17fda4c3990_04_Lyfted.mp4" 
+                        poster="images/99eb516f-3a90-4843-a806-d17fda4c3990_04_Lyfted.jpg">
+                    </video></div>
+                </div>
+            </div>
+        
+            <hr size="2" width="100%" color="#fff">
+            <div class="client">
+                <h3>Hectare's</h3>
+                <div class="videos">
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/Zf8W2scYqOFdyDAq_soda_square-2-.mp4" 
+                        poster="images/Zf8W2scYqOFdyDAq_soda_square-2-.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/Zf8YCMcYqOFdyDA1_BloodOrangeShot_1-1%5BMConverter.eu%5D.mp4" 
+                        poster="images/Zf8YCMcYqOFdyDA1_BloodOrangeShot_1-1.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/Zf8XFMcYqOFdyDAu_Double_-square-_NEW-1-.mp4" 
+                        poster="images/Zf8XFMcYqOFdyDAu_Double_-square-_NEW-1-.jpg">
+                    </video></div>
+                    
+                </div>
+            </div>
+        
+            <hr size="2" width="100%" color="#fff">
+            <div class="client">
+                <h3>Soul CBD</h3>
+                <div class="videos">
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/e78ef3c3-33ad-46bb-ac33-7440cd8a48a6_Product+-+Gummies+%281%29.mp4" 
+                        poster="images/e78ef3c3-33ad-46bb-ac33-7440cd8a48a6_Product.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/8d78ef2b-fabb-4415-b8e0-0ba7171c396e_Product+-+Alert+Caps.mp4" 
+                        poster="images/8d78ef2b-fabb-4415-b8e0-0ba7171c396e_Product.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/727bc91a-d951-4b45-b926-078bebf21cfc_AD+-+Anxiety.m4v" 
+                        poster="images/727bc91a-d951-4b45-b926-078bebf21cfc_AD.jpg">
+                    </video></div>
+                    
+                </div>
+            </div>
+        
+            <hr size="2" width="100%" color="#fff">
+            <div class="client">
+                <h3></h3><h3>Colorado Botanicals </h3>
+                <div class="videos">
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/be660d20-b199-4f70-a98e-714dffcaa746_1.mp4" 
+                        poster="images/be660d20-b199-4f70-a98e-714dffcaa746_1.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/eeaeeab3-540b-409f-b9ea-82c890fa9c2e_01_2.mp4" 
+                        poster="images/eeaeeab3-540b-409f-b9ea-82c890fa9c2e_01_2.jpg">
+                    </video></div>
+                    <div class="video" style="display: block">
+                        <h4>Meta</h4>
+                        <video controls="true" src="https://livetransparent.cdn.prismic.io/livetransparent/0a9bdbe2-7465-424f-b088-5369769bf165_03_2_1.mp4" 
+                        poster="images/0a9bdbe2-7465-424f-b088-5369769bf165_03_2_1.jpg">
+                    </video></div>
+                    
+                </div>
+            </div>
+        
+            <hr size="2" width="100%" color="#fff">
+        </div>
     </section>
 
     <!-- Footer Section -->
@@ -108,14 +244,13 @@
     <script src="js/swiper-bundle.min.js"></script>
 
     <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <script src="js/script.js"  type="module"></script>
 
     <!-- Fadein stuff -->
     <script src="js/scrolls.min.js"></script>
 
-    <script
-type="text/javascript"
-src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=XKPTHG"
-></script>
+    <!-- Klaviyo Code -->
+<script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XKPTHG"></script>
+<!-- End Klaviyo Code -->
 </body>
 </html>

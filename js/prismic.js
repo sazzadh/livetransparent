@@ -248,7 +248,7 @@ const fillPdfSlider = (content) => {
 
 const categorySelector = document.getElementById('pdf-categories');
 
-categorySelector?.addEventListener('change', (e) => {
+categorySelector.addEventListener('change', (e) => {
   const currentValue = e.target.value;
   const allItems = document.querySelectorAll('.swiper-slide');
 
@@ -278,7 +278,8 @@ const populateAuditLink = (ctaLink, ctaText) => {
 
   auditLinks.forEach((item) => {
     item.setAttribute('href', ctaLink.url);
-    item.innerHTML = ctaText[0].text;
+    //item.innerHTML = ctaText[0].text;
+    //item.innerHTML = "Apply";
   });
 };
 
@@ -464,15 +465,15 @@ const init = async () => {
 
     const primaryHeadline3 = primary_headline_3[0].text;
     const headline3Container = document.querySelector('.headline-3');
-    headline3Container.innerHTML = primaryHeadline3;
+    //headline3Container.innerHTML = primaryHeadline3;
 
     const subtext1 = sub_text_1[0].text;
     const subtext1Container = document.getElementById('subtext-1');
-    subtext1Container.innerHTML = subtext1;
+    //subtext1Container.innerHTML = subtext1;
 
     const subtext2 = sub_text_2[0].text;
     const subtext2Container = document.getElementById('subtext-2');
-    subtext2Container.innerHTML = subtext2;
+    //subtext2Container.innerHTML = subtext2;
 
     const headlineHTML = prismic.asHTML(headline);
     const headlineContainer = document.getElementById('headline-container');
@@ -484,7 +485,7 @@ const init = async () => {
 
     const subtaglineHTML = prismic.asHTML(subtagline);
     const subtaglineContainer = document.getElementById('subtagline-container');
-    subtaglineContainer.innerHTML = subtaglineHTML;
+    //subtaglineContainer.innerHTML = subtaglineHTML; 
 
     fillPdfCategories(pdfCategories);
     populateAuditLink(cta_link, cta_text);

@@ -1,38 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '1362012287804434');
-        fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1362012287804434&ev=PageView&noscript=1"
-        /></noscript>
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-46T0G8CBK1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-46T0G8CBK1');
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1362012287804434');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1362012287804434&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v3">
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <title>Transparent eCom</title>
 </head>
 <body>
-     <!--Test Code  -->
+  
+
+
     <div id="container"></div>
-    <!-- Scroll To Top Button  -->
+    <!-- Scroll To Top Button -->
     <div class="scroll-button">
         <a href="#navbar"><i class="fas fa-arrow-up"></i></a>
     </div>
 
     <!-- Navigation Menu -->
-    <nav class="home-nav">
+    <nav class="home-nav active" id="myheader">
         <div class="navbar" id="navbar">
             <div class="logo-box">
                 <div class="logo"><a href="/"><img src="./images/logo.png"/></a></div>
@@ -41,33 +56,89 @@
                 <li><a href="#clients" class="nav-clients"></a></li>
                 <li><a href="#services" class="nav-services"></a></li>
                 <li><a href="#contact" class="nav-contact"></a></li>
-                <li><a href="/clients.html" class="nav-creative"></a></li>
-                <li><a href="#" class="cta-link-header audit-link">Free Audit</a></li>
+                <li><a href="/clients" class="nav-creative"></a></li>
+                <li><a href="https://calendly.com/transparentecom/one-on-one" class="cta-link-header audit-link-">APPLY</a></li>
                 <div class="cancel-button">
-                    <i class="fas fa-times"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M242.7 256l100.1-100.1c12.3-12.3 12.3-32.2 0-44.5l-22.2-22.2c-12.3-12.3-32.2-12.3-44.5 0L176 189.3 75.9 89.2c-12.3-12.3-32.2-12.3-44.5 0L9.2 111.5c-12.3 12.3-12.3 32.2 0 44.5L109.3 256 9.2 356.1c-12.3 12.3-12.3 32.2 0 44.5l22.2 22.2c12.3 12.3 32.2 12.3 44.5 0L176 322.7l100.1 100.1c12.3 12.3 32.2 12.3 44.5 0l22.2-22.2c12.3-12.3 12.3-32.2 0-44.5L242.7 256z"/></svg>
                 </div>
             </ul>
         </div>
-        <div class="phone-button">
-            <i class="fa-solid fa-phone"></i>
+        <div class="phone-button" >
+            
         </div>
-        <div class="menu-button">
-            <i class="fas fa-bars"></i>
+        <div class="menu-button" id="menuButton">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        </div>
+        <div class="phone-cta">
+            <a href="https://calendly.com/transparentecom/one-on-one" class="cta-link-header audit-link-">APPLY</a>
         </div>
     </nav>
 
     <section class="masthead">
-        <div class="masthead--inner" id="masthead-content">
-        <h1 id="masthead-title">
-            <span class="headline-1"></span>
-            <span class="headline-2"></span>
-            <span class="headline-3"></span>
-        </h1>
-        <a href="#" class="cta-link audit-link" id="main-cta"></a>
-        <div class="masthead--bottom-text">
-            <p id="subtext-1"></p>
-            <p id="subtext-2"></p>
-        </div>
+        <div class="masthead--inner active" id="masthead-content">
+            <div class="masthead_left">
+                <div>
+                    <h1 id="masthead-title">
+                        <span class="headline-1" style="display: none !important;"></span>
+                        <span class="headline-2" style="display: none !important;"></span>
+                        <span class="headline-3">A Digital Agency For The Future</span>
+                    </h1>       
+                    <div class="masthead--bottom-text">
+                        <p id="subtext-1">The only global agency actually advertising cannabis, kratom, psychedelics, and more</p>
+                    </div>
+                    <div id="mobile_video_holder">
+
+                    </div>
+                    <a href="https://calendly.com/transparentecom/transparent-ecom" class="cta-link audit-link-" id="main-cta">LEARN HOW</a>
+                </div>
+            </div>
+            <div class="masthead_right">
+                <div id="video-container">
+                    <div id="firstVideoHandle">
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor" fill-rule="evenodd"/><path d="M16 12L10 16.3301V7.66987L16 12Z" fill="currentColor"/></svg>
+                    </div>
+                    <video id="myVideo-1" width="320" height="240" controls>
+                        <source src="https://livetransparent99.cdn.prismic.io/livetransparent99/ZgU69ct2UUcvBPz__intro.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video id="myVideo-2" width="320" height="240" controls>
+                        <source src="https://livetransparent99.cdn.prismic.io/livetransparent99/ZgU6-8t2UUcvBP0A_pricing.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video id="myVideo-3" width="320" height="240" controls>
+                        <source src="https://livetransparent99.cdn.prismic.io/livetransparent99/ZgU7Act2UUcvBP0C_profitability.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video id="myVideo-4" width="320" height="240" controls>
+                        <source src="https://livetransparent99.cdn.prismic.io/livetransparent99/ZgU64st2UUcvBPz7_Clients_and_References.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <video id="myVideo-5" width="320" height="240" controls>
+                        <source src="https://livetransparent99.cdn.prismic.io/livetransparent99/ZgU66Mt2UUcvBPz9_Creative-and-Landing-Page.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="masthead_video_nav" id="masthead_videoNav">
+                    <div class="masthead_video_thumb active" id="myVideoThumb-1" style="background-image:url(images/pricing-video-thumb.jpg);">
+                        <span>Pricing</span>
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor" fill-rule="evenodd"/><path d="M16 12L10 16.3301V7.66987L16 12Z" fill="currentColor"/></svg>
+                    </div>
+                    <div class="masthead_video_thumb" id="myVideoThumb-2" style="background-image:url(images/profitability-video-thumb.jpg);">
+                        <span>Profitability</span>
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor" fill-rule="evenodd"/><path d="M16 12L10 16.3301V7.66987L16 12Z" fill="currentColor"/></svg>
+                    </div>
+                    <div class="masthead_video_thumb" id="myVideoThumb-3" style="background-image:url(images/Clients_and_References.jpg);">
+                        <span>Profitability</span>
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor" fill-rule="evenodd"/><path d="M16 12L10 16.3301V7.66987L16 12Z" fill="currentColor"/></svg>
+                    </div>
+                    <div class="masthead_video_thumb" id="myVideoThumb-4" style="background-image:url(images/Creative-and-Landing-Page.jpg);">
+                        <span>Profitability</span>
+                        <svg fill="none" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21ZM12 23C18.0751 23 23 18.0751 23 12C23 5.92487 18.0751 1 12 1C5.92487 1 1 5.92487 1 12C1 18.0751 5.92487 23 12 23Z" fill="currentColor" fill-rule="evenodd"/><path d="M16 12L10 16.3301V7.66987L16 12Z" fill="currentColor"/></svg>
+                    </div>
+                </div>
+                <img src="images/video-size-placeholder.jpg" class="masthead_video_size_placeholder" id="masthead_videoSizePlaceholder" alt="size">
+            </div>
+        
         </div>
     </section>
 
@@ -103,36 +174,6 @@
         </div>
     </div>
 
-    <section class="glance" id="glance-section" scrolls>
-        <p class="heading" id="glance-headline"></p>
-        <div class="stats">
-            <p id="brand-section"><span class="number" id="brand-number"></span> <span id="brand-text" class="description"></span></p>
-            <p id="ad-section"><span class="number" id="ad-spend"></span> <span class="description" id="ad-spend-text"></span></p>
-            <p><span class="number">0</span> <span class="description" id="platform-bans-text"><span></span></p>
-        </div>
-    </section>
-
-    <!-- Home Section -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <div class="text scrolls" scrolls>
-                <div id="headline-container" class="text-one"></div>
-                <div id="tagline-container" class="text-two"></div>
-                <div id="subtagline-container" class="text-three"></div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Client Testimonies Section -->
-    <section class="container testimonial-container">
-        <div class="testimonial mySwiper" scrolls>
-          <div id="slides-container" class="testi-content swiper-wrapper"></div>
-          <div class="swiper-button-next nav-btn"></div>
-          <div class="swiper-button-prev nav-btn"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </section>
-
     <!-- Client Logos Carousel -->
     <section class="logos-container" id="clients" scrolls>
         <div class="title"><span>Clients</span></div>
@@ -146,6 +187,40 @@
           <div class="swiper-pagination"></div>
         </div>
       </section>
+
+      <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text scrolls" scrolls>
+                <div id="headline-container" class="text-one"></div>
+                <div id="tagline-container" class="text-two"></div>
+                <div id="subtagline-container" class="text-three">Digital marketing agency offering full-serivce, self-service and everything in between - We offer full-service, self-service, and everything in between. We will get you running ads profitably and at scale regardless of your current marketing resources. For the first time in history, you can make money as a cannabis brand online, without having to blur, bleep, or hide your brand.</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="glance" id="glance-section" scrolls>
+        <p class="heading" id="glance-headline"></p>
+        <div class="stats">
+            <p id="brand-section"><span class="number" id="brand-number"></span> <span id="brand-text" class="description"></span></p>
+            <p id="ad-section"><span class="number" id="ad-spend"></span> <span class="description" id="ad-spend-text"></span></p>
+            <p><span class="number">0</span> <span class="description" id="platform-bans-text"><span></span></p>
+        </div>
+    </section>
+
+    
+    <!-- Client Testimonies Section -->
+    <section class="container testimonial-container">
+        <div class="testimonial mySwiper" scrolls>
+          <div id="slides-container" class="testi-content swiper-wrapper"></div>
+          <div class="swiper-button-next nav-btn"></div>
+          <div class="swiper-button-prev nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+    
 
     <!-- Client Logos Section -->
     <!-- <section class="client-logos">
@@ -162,6 +237,7 @@
 
     <!-- Services Section -->
     <section class="services" id="services">
+        <h1 class="title"><span style="color:#fff;">Transparent Pricing</span></h1>
         <div class="content service-inner" scrolls>
             <div>
                 <p>Self Service</p>
@@ -228,9 +304,9 @@
     <!-- Fadein stuff -->
     <script src="js/scrolls.min.js"></script>
 
-    <script
-type="text/javascript"
-src="//static.klaviyo.com/onsite/js/klaviyo.js?company_id=XKPTHG"
-></script>
+    
+<!-- Klaviyo Code -->
+<script type="text/javascript" async="" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=XKPTHG"></script>
+<!-- End Klaviyo Code -->
 </body>
 </html>
