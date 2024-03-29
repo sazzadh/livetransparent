@@ -1209,8 +1209,8 @@ footer .right input:hover {
 }
 
 #masthead-content.active #subtext-1 {
-  opacity: 1;
-  transition: 2s ease 7s;
+  /* opacity: 1; */
+  /* transition: 2s ease 7s; */
 }
 
 #masthead-content.active #subtext-2 {
