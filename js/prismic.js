@@ -10,6 +10,7 @@ const client = prismic.createClient(repositoryName, { routes });
 const locale = navigator.language;
 
 console.log({ locale });
+console.log({ client });
 
 const fillTestimonials = (testimonials) => {
   for (let i = 0; i < testimonials.length; i++) {
@@ -382,13 +383,13 @@ const init = async () => {
   const contactEmailContainer = document.getElementById(
     'contact-email-container'
   );
-  contactEmailContainer.innerHTML = contactEmail;
+  //contactEmailContainer.innerHTML = contactEmail;
 
   const contactNumber = contact_number[0]?.text;
   const contactNumberContainer = document.getElementById(
     'contact-number-container'
   );
-  contactNumberContainer.innerHTML = contactNumber;
+ // contactNumberContainer.innerHTML = contactNumber;
 
   const messageName = form_message[0]?.text;
   const messageNameContainer = document.getElementById('form-message');
@@ -437,7 +438,7 @@ const init = async () => {
     const contactHeadline = contact_headline[0]?.text;
     const contactHeadlineContainer =
       document.getElementById('contact-headline');
-    contactHeadlineContainer.innerHTML = contactHeadline;
+    //contactHeadlineContainer.innerHTML = contactHeadline;
 
     const countHeadline = count_headline[0]?.text;
     const countHeadlineContainer = document.getElementById('glance-headline');
