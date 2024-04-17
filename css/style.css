@@ -866,6 +866,8 @@ footer {
 footer .content {
   display: flex;
   justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 980px) {
@@ -900,6 +902,7 @@ a[href^="mailto"] {
 
 footer .contact {
   width: 320px;
+  display: none;
 }
 
 footer .contact-info h4:hover {
