@@ -2142,3 +2142,41 @@ footer .right input:hover {
     width: 349px;
   }
 }
+
+
+
+
+
+/* client logo grid section */
+.client_logo_grid{
+  width:100%;
+  height: auto;
+  background-color: #fff;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.client_logo_grid_inner{
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+.grid_list{
+  width: 100%;
+  align-items: center;
+}
+.grid_flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid_item{
+  width:21%;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 0 auto;
+  
+}
+.grid_item img{
+  width:100%;
+  height: auto;
+}
