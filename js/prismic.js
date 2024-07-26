@@ -30,6 +30,7 @@ const fillTestimonials = (testimonials) => {
   }
 };
 
+/*
 const fillClients = (clients) => {
   for (let i = 0; i < clients.length; i++) {
     const logo1Src = prismic.asImageSrc(clients[i].logo_1);
@@ -55,7 +56,7 @@ const fillClients = (clients) => {
     </div>`;
   }
 };
-
+*/
 const fillFullService = (services) => {
   for (let i = 0; i < services.length; i++) {
     const serviceText = services[i].service[0].text;
@@ -493,7 +494,7 @@ const init = async () => {
 
     fillTestimonials(testimonials);
 
-    fillClients(clients);
+    //fillClients(clients);
 
     // fillServices(services);
     fillSelfService(self_service);
