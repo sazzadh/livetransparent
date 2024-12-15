@@ -67,6 +67,7 @@ const fillFullService = (services) => {
   }
 };
 
+
 const fillSelfService = (services) => {
   console.log(services);
   for (let i = 0; i < services.length; i++) {
@@ -74,7 +75,7 @@ const fillSelfService = (services) => {
 
     const listContainer = document.getElementById('self-service-container');
 
-    listContainer.innerHTML += `<li>${serviceText}</li>`;
+    //listContainer.innerHTML += `<li>${serviceText}</li>`;
   }
 };
 
